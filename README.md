@@ -24,3 +24,8 @@ This is a plugin for [Insomnia](https://insomnia.rest) to provide Response Asser
 - A save dialog will open. Please give the location "C:/Users/<your_user_name>/AppData/Roaming/Insomnia" and allow to save the file "insomnia.UnitTest.db"
 - Close and open Insomnia. 
 You can now see all the unit tests got added in the Test tab screen and you can now easily run all test cases and see the result
+
+# Demo Video
+
+https://user-images.githubusercontent.com/6916649/191023124-262685fe-b502-4884-84f6-7c2629ea6d37.mp4
+
