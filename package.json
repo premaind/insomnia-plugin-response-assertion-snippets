@@ -1,0 +1,44 @@
+{
+  "private": true,
+  "name": "insomnia-plugin-response-assertion-snippets",
+  "version": "3.5.1-beta.2",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "author": "Verifone",
+  "license": "Apache-2.0",
+  "scripts": {
+    "prebuild": "npm run clean",
+    "build:source": "esr esbuild.ts",
+    "build:types": "tsc --build tsconfig.build.json",
+    "build": "concurrently --names source,types \"npm run build:source\" \"npm run build:types\"",
+    "clean": "rimraf dist",
+    "bootstrap": "npm run build"
+  },
+  "insomnia": {
+    "name": "response-assertion-snippets",
+    "description": "Provice code snippets for response assertion to be used in unit test",
+    "unlisted": true
+  },
+  "dependencies": {
+    "events": "^3.3.0",
+    "file-saver": "^2.0.5",
+    "util": "^0.12.4"
+  },
+  "devDependencies": {
+    "@types/file-saver": "^2.0.5",
+    "@types/node": "^18.7.16",
+    "@types/react": "^16.14.5",
+    "@types/react-dom": "^16.9.12",
+    "@types/styled-components": "^5.1.23",
+    "axios": "^0.21.2",
+    "concurrently": "^7.0.0",
+    "cross-env": "^7.0.3",
+    "esbuild": "^0.14.29",
+    "esbuild-runner": "^2.2.1",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "rimraf": "3.0.2",
+    "styled-components": "^5.3.3",
+    "typescript": "^4.5.5"
+  }
+}
