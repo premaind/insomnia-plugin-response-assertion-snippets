@@ -30,5 +30,5 @@ You can now see all the unit tests got added in the Test tab screen and you can 
 https://user-images.githubusercontent.com/6916649/191023124-262685fe-b502-4884-84f6-7c2629ea6d37.mp4
 
 # Contributors
-Designed and Developed By : Prema.Namasivayam@VERIFONE.com, Satyajit.Sial@VERIFONE.com
+Designed and Developed By : Prema.Namasivayam@VERIFONE.com, Satyajit.Sial@VERIFONE.com <br>
 Guided By : Vineet.Dutt@VERIFONE.com , krishna_p2@VERIFONE.com
